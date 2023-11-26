@@ -1,0 +1,38 @@
+[{'domain': '.usst.edu.cn', 'httpOnly': False, 'name': 'iPlanetDirectoryPro', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'IlLFXMyySBJqtLheyEGOXD'}, {'domain': 'jwgl.usst.edu.cn', 'httpOnly': False, 'name': '1', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': '22558.60448.21071.0000'}, {'domain': 'jwgl.usst.edu.cn', 'httpOnly': True, 'name': 'JSESSIONID', 'path': '/jwglxt', 'sameSite': 'Lax', 'secure': False, 'value': '2BC2396EEEB96A1364BE50DB9D0F2FA8'}]
+
+
+JSESSIONID=2BC2396EEEB96A1364BE50DB9D0F2FA8; 1=22558.60448.21071.0000; iPlanetDirectoryPro=IlLFXMyySBJqtLheyEGOXD
+
+
+Accept:
+text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding:
+gzip, deflate, br
+Accept-Language:
+zh-CN,zh;q=0.9
+Cache-Control:
+max-age=0
+Connection:
+keep-alive
+Cookie:
+JSESSIONID=2BC2396EEEB96A1364BE50DB9D0F2FA8; 1=22558.60448.21071.0000; iPlanetDirectoryPro=IlLFXMyySBJqtLheyEGOXD
+Host:
+jwgl.usst.edu.cn
+Sec-Ch-Ua:
+"Not)A;Brand";v="24", "Chromium";v="116"
+Sec-Ch-Ua-Mobile:
+?0
+Sec-Ch-Ua-Platform:
+"Windows"
+Sec-Fetch-Dest:
+document
+Sec-Fetch-Mode:
+navigate
+Sec-Fetch-Site:
+same-site
+Sec-Fetch-User:
+?1
+Upgrade-Insecure-Requests:
+1
+User-Agent:
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36

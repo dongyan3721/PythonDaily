@@ -1,0 +1,5 @@
+{
+  "base_url": "https://wiki.biligame.com/ys",
+  "avatar_storage": "./static/avatar/",
+  "portrait_storage": "./static/portrait/"
+}
