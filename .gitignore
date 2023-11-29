@@ -1,2 +1,6 @@
 venv/
+static/
 github-token.txt
+*.rar
+*.xlsx
+*.db

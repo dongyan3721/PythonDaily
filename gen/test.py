@@ -5,21 +5,21 @@ from bs4 import BeautifulSoup
 from MessApis import *
 import pandas as pd
 
-chrome = webdriver.Chrome()
+# chrome = webdriver.Chrome()
 
-chrome.get("https://wiki.biligame.com/ys/%E6%97%85%E8%A1%8C%E8%80%85/%E5%B2%A9")
+# chrome.get("https://wiki.biligame.com/ys/%E8%BF%AA%E5%B8%8C%E9%9B%85")
 
-page = chrome.page_source
+# page = chrome.page_source
 # print(page)
-cl = BeautifulSoup(page, "lxml")
+# cl = BeautifulSoup(page, "lxml")
 
-resu = cl.select(".poke-bg")[7]
+# resu = cl.select(".poke-bg")[3]
 
 # print(parseBasicInfo(resu))
 
-print("\n\n")
+# print("\n\n")
 
-print(parseTalent(resu)[0][0][2])
+# print(parsePreview(resu))
 
 # data = pd.DataFrame(parseOutbreak(resu))
 # data = data.T
@@ -37,7 +37,8 @@ print(parseTalent(resu)[0][0][2])
 #     print(i)
 #     print(tables[i])
 
-
+for i in range(1, 16):
+    print(f"\"LV{i}\"", end=", ")
 while 1:
     time.sleep(10)
     print("000----0000")
