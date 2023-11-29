@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from jwcATK.ProjectUtils import PlainJsonReader
-
+from MessApis import *
 
 class GenshinGrabber:
     def __init__(self):
@@ -25,7 +25,7 @@ class GenshinGrabber:
         roles = soup.select(".g")
         for i in roles:
             n = i.select(".L")[0].string
-            self.__imageDownload(i.select("a img")[0]["mobile"], self.session, n, "avatar_storage")
+            self.__imageDownload(i.select("a img")[0]["src"], self.session, n, "avatar_storage")
 
 
 if __name__ == '__main__':
