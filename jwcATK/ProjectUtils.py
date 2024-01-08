@@ -30,7 +30,7 @@ class StringBuilder:
 # 工具类，单嵌套json阅读器
 class PlainJsonReader:
     def __init__(self, filename: str):
-        file = open(filename, "r")
+        file = open(filename, "r", encoding="UTF-8")
         file_cont = file.read()
         self.reader = json.loads(file_cont)
         file.close()
